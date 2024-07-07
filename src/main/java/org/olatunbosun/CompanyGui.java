@@ -45,10 +45,11 @@ public class CompanyGui extends JFrame implements ActionListener {
 
         name.addActionListener(this);
 
-
+    // Create the text fields
         address = new JTextField();
         address.setBounds(120, 100, 250, 50);
 
+        // Add the components to the frame
         name.addActionListener(this);
         numberOfEmployee = new JTextField();
         numberOfEmployee.setBounds(120, 150, 250, 50);
